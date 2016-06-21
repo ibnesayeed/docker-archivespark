@@ -11,5 +11,5 @@ Then open a browser and access the Notebook at `http://localhost:8888/`. There s
 To run the container with `CDX` and `WARC` files other than included examples, mount corresponding directories in the container at run time. Additionally, to make the notebooks available outside of the container, mount a notebook directory of the host machine with write permissions. Following command illustrates the usage:
 
 ```
-$ docker run --rm -it -p 8888:8888 -v /path/to/cdx:/cdx -v /path/to/warc:/warc -v /path/to/notebook:/notebook ibnesayeed/archivespark
+$ docker run --rm -it -p 8888:8888 -v /path/to/cdx:/cdx -v /path/to/warc:/warc -v /path/to/notebooks:/notebooks ibnesayeed/archivespark
 ```
