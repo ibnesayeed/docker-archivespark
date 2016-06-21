@@ -1,6 +1,6 @@
 # ArchiveSpark
 
-[ArchiveSpark](https://github.com/helgeho/ArchiveSpark) is a framework that facilitates access to Web Archives, enables easy data extraction as well as derivation. This repository makes ArchiveSpark available as a [Docker](https://www.docker.com/) image. We made it easy to run ArchiveSpark as a Docker container without the need of a Hadoop cluster and without the need of installing and configuring various dependencies. To get started, run the following command (assuming that Docker is installed on the machine):
+[ArchiveSpark](https://github.com/helgeho/ArchiveSpark) is a framework that facilitates access to Web Archives and enables easy data extraction as well as derivation. This repository makes ArchiveSpark available as a [Docker](https://www.docker.com/) image. We made it easy to run ArchiveSpark as a Docker container without the need of a Hadoop cluster and without the need of installing and configuring various dependencies. To get started, run the following command (assuming that Docker is installed on the machine):
 
 ```
 $ docker run --rm -it -p 8888:8888 ibnesayeed/archivespark
