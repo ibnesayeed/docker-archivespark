@@ -1,0 +1,18 @@
+{
+    "display_name": "ArchiveSpark (Toree, Spark 1.6.1)",
+    "language_info": { "name": "scala" },
+    "argv": [
+	"/home/USERNAME/.ipython/kernels/archivespark/toree/bin/run.sh",
+	"--profile",
+        "{connection_file}"
+     ],
+     "codemirror_mode": "scala",
+     "env": {
+         "SPARK_OPTS": "--master yarn-client --conf spark.driver.maxResultSize=0 --conf spark.serializer=org.apache.spark.serializer.KryoSerializer --conf spark.dynamicAllocation.enabled=true --conf spark.shuffle.service.enabled=true --conf spark.rdd.compress=true --conf spark.dynamicAllocation.maxExecutors=30 --conf spark.dynamicAllocation.executorIdleTimeout=20 --conf spark.dynamicAllocation.cachedExecutorIdleTimeout=600",
+         "CAPTURE_STANDARD_OUT": "true",
+         "CAPTURE_STANDARD_ERR": "true",
+         "SEND_EMPTY_OUTPUT": "false",
+         "SPARK_HOME": "/share/spark/Spark1.6.1",
+         "HADOOP_CONF_DIR": "/etc/hadoop/conf"
+      }
+}

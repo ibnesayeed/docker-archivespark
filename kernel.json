@@ -1,0 +1,17 @@
+{
+    "display_name": "ArchiveSpark (Toree, Spark 1.6.1)",
+    "language_info": { "name": "scala" },
+    "argv": [
+	"/root/.ipython/kernels/archivespark/toree/bin/run.sh",
+	"--profile",
+        "{connection_file}"
+     ],
+     "codemirror_mode": "scala",
+     "env": {
+         "SPARK_OPTS": "--master local --conf spark.driver.maxResultSize=0 --conf spark.serializer=org.apache.spark.serializer.KryoSerializer --conf spark.rdd.compress=true",
+         "CAPTURE_STANDARD_OUT": "true",
+         "CAPTURE_STANDARD_ERR": "true",
+         "SEND_EMPTY_OUTPUT": "false",
+         "SPARK_HOME": "/spark"
+      }
+}
