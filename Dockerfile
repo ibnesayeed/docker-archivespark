@@ -4,7 +4,7 @@ MAINTAINER Sawood Alam <ibnesayeed@gmail.com>
 
 RUN apt-get update && apt-get install -y default-jre
 
-RUN curl -L -O http://mirrors.ocf.berkeley.edu/apache/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.6.tgz \
+RUN curl -L -O http://archive.apache.org/dist/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.6.tgz \
     && mkdir /spark \
     && tar -xf spark-1.6.1-bin-hadoop2.6.tgz --strip-components=1 -C /spark \
     && rm spark-1.6.1-bin-hadoop2.6.tgz
