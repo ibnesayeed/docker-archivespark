@@ -1,5 +1,5 @@
 {
-    "display_name": "ArchiveSpark (Toree, Spark 1.6.1)",
+    "display_name": "ArchiveSpark 2.0 (Toree, Spark 2.0.2)",
     "language_info": { "name": "scala" },
     "argv": [
 	"/root/.ipython/kernels/archivespark/toree/bin/run.sh",
