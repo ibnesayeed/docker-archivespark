@@ -2,7 +2,7 @@
     "display_name": "ArchiveSpark 2.0 (Toree, Spark 2.0.2)",
     "language_info": { "name": "scala" },
     "argv": [
-	"/root/.ipython/kernels/archivespark/toree/bin/run.sh",
+	"/home/jovyan/.ipython/kernels/archivespark/toree/bin/run.sh",
 	"--profile",
         "{connection_file}"
      ],
